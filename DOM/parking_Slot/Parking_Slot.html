@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> parking slot</h1>
+    <form id="res">
+    <label for="B_no">Bike No:</label>
+    <input type="text" id="B_no" placeholder="Enter the bike number">
+     <br>
+     <label for="B_own">Bike owner:</label>
+    <input type="text" id="B_own" placeholder="Enter the bike Owner name">
+    <br>
+    <label for="B_TCI">Time check in:</label>
+    <input type="time" id="B_TCI" placeholder="Enter Check in time">
+    <br>
+    <label for="B_TCO">Time Check out:</label>
+    <input type="time" id="B_TCO" placeholder="Enter Check out time">
+<br> <br>
+</form>
+
+    <button onclick="fun()">Submit</button> 
+    <input type="button" value="reset" onclick="res()">
+
+    <button  id="back" onclick="location.reload()">refresh</button>
+
+
+
+    <script src="../js/assignment2.js"></script>
+</body>
+</html>

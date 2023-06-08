@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <select name="digitalclock"  onchange="time_format()" id="timing">
+    <option value="12-hours" >12-hours</option>
+    <option value="24-hours" >24-hours</option>
+    <option value="Date&time">Date&Time</option>
+
+  </select>
+
+
+<div id="main_div">
+        <h1>Digital Clock</h1>
+    <div id="hour">
+        <h3>HOUR</h3>
+        <h3 id="hour1" ></h3>
+        <!-- <h3 id="hour2" ></h3> -->
+    </div>
+
+    <div id="min">
+        <h3>MINUTES</h3>
+        <h3 id="min1"></h3>
+    </div>
+    <div id="sec">
+        <h3>SECONDS</h3>
+        <h3 id="sec1"></h3>
+    </div>
+    <div id="am_pm">
+        <h3>AM/PM</h3>
+        <h3 id="am_pm1"></h3>
+    </div>
+
+    <div id="date"  style="display: none;">
+        <h3>Date and Time</h3>
+        <h3 id="D_T"></h3>
+    </div>
+
+    
+</div>
+
+
+ 
+
+    <script src="../js/assign_digitalClock.js"></script>
+</body>
+</html>
